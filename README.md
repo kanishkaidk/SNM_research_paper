@@ -10,8 +10,7 @@ Authors: Kanishka, Aviral, Gunnika Aggarwal
 
 ```
 .
-├── SNM_LLM_link_prediction_final.ipynb   # full pipeline, run top to bottom
-├── data/                   # dataset files (see below)
+├── SNM_LLM_link_prediction_final.ipynb   # full pipeline, run top to bottom                
 ├── figs/                   # all figures produced by the notebook
 ├── tables/                 # all result tables produced by the notebook
 └── README.md
@@ -23,6 +22,8 @@ The dataset is ICEWS1819 from DTGB, which is publicly available:
 https://github.com/zjs123/DTGB
 
 Place the files inside `data/` before running the notebook. [Or: the files are already included in `data/`.]
+dataset link - https://drive.google.com/drive/folders/1OMtOyMP01gdStZQEVqaZDqnSD4sEf_DT?usp=drive_link
+
 
 ## How to run
 
