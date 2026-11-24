@@ -1,0 +1,36 @@
+\begin{tabular}{llrrr}
+\toprule
+ &  & MRR all & MRR repeat & MRR new \\
+model & condition &  &  &  \\
+\midrule
+\multirow[t]{5}{*}{0.5B} & none & 0.227 & 0.229 & 0.219 \\
+ & digest & 0.401 & 0.445 & 0.222 \\
+ & nt\_recent\_first & 0.364 & 0.405 & 0.200 \\
+ & nt\_oldest\_first & 0.365 & 0.407 & 0.192 \\
+ & time\_recent\_first & 0.375 & 0.417 & 0.204 \\
+\cline{1-5}
+\multirow[t]{5}{*}{1.5B} & none & 0.321 & 0.341 & 0.240 \\
+ & digest & 0.430 & 0.477 & 0.239 \\
+ & nt\_recent\_first & 0.405 & 0.446 & 0.239 \\
+ & nt\_oldest\_first & 0.404 & 0.442 & 0.250 \\
+ & time\_recent\_first & 0.379 & 0.409 & 0.258 \\
+\cline{1-5}
+\multirow[t]{11}{*}{3B} & none & 0.400 & 0.429 & 0.284 \\
+ & stats & 0.386 & 0.445 & 0.144 \\
+ & digest & 0.584 & 0.675 & 0.211 \\
+ & nt\_recent\_first & 0.549 & 0.624 & 0.245 \\
+ & nt\_oldest\_first & 0.575 & 0.659 & 0.232 \\
+ & nt\_shuf0 & 0.554 & 0.633 & 0.228 \\
+ & nt\_shuf1 & 0.558 & 0.638 & 0.231 \\
+ & time\_recent\_first & 0.511 & 0.569 & 0.271 \\
+ & time\_oldest\_first & 0.489 & 0.545 & 0.259 \\
+ & perm\_none & 0.169 & 0.165 & 0.187 \\
+ & perm\_nt\_recent\_first & 0.486 & 0.575 & 0.124 \\
+\cline{1-5}
+\multirow[t]{4}{*}{Phi3.5} & none & 0.360 & 0.380 & 0.280 \\
+ & digest & 0.490 & 0.549 & 0.246 \\
+ & nt\_recent\_first & 0.390 & 0.419 & 0.271 \\
+ & nt\_oldest\_first & 0.393 & 0.420 & 0.281 \\
+\cline{1-5}
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+,value
+dataset,ICEWS1819
+edges,"1,100,071"
+train / val / test edges,"769,599 / 164,516 / 165,956"
+evaluated split,test
+eligible edges in split,"160,429"
+share of repeat links (population),0.804
+queries,600
+repeat / new queries,300 / 300
+candidates per query,20
+negatives,6 history + active + random
+median past events of source,264
+events shown to the LLM,15 (raw) / 50 (digest)
+LLMs,"0.5B, 1.5B, 3B, Phi3.5"
+query-set hash,7c4e29c2

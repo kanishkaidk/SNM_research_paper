@@ -1,0 +1,9 @@
+,hist,active,random
+Popularity,0.625,0.633,0.907
+Frequency,0.658,0.851,0.84
+ItemCF,0.572,0.874,0.948
+Stack: heuristics,0.761,0.896,0.961
+3B none,0.469,0.717,0.728
+3B nt_recent_first,0.586,0.869,0.902
+3B digest,0.612,0.865,0.866
+Stack: heuristics + 3B nt_recent_first,0.771,0.899,0.966

@@ -1,0 +1,11 @@
+id,hypothesis,stratum,diff [95% CI],p_holm,verdict
+H1,history helps (events vs no history),all,"+0.149 [+0.112, +0.188]",0.005,A better
+H1n,history helps on NEW links,new,"-0.040 [-0.072, -0.007]",0.06,no difference detected
+H3,timestamps hurt (no-timestamp vs timestamped),all,"+0.039 [+0.015, +0.061]",0.007,A better
+H4a,new links: LLM vs popularity,new,"+0.027 [-0.013, +0.064]",0.344,no difference detected
+H4b,new links: LLM vs item co-occurrence,new,"-0.050 [-0.087, -0.013]",0.042,B better
+H4c,repeat links: LLM vs frequency,repeat,"-0.152 [-0.194, -0.112]",0.005,B better
+H5,hybrid beats the best heuristic model (all),all,"+0.006 [-0.005, +0.017]",0.344,no difference detected
+H5n,hybrid beats heuristic model on NEW links,new,"+0.037 [+0.012, +0.063]",0.042,A better
+H6,digest format vs raw event list,all,"+0.035 [+0.004, +0.064]",0.084,no difference detected
+H7,scale: primary model vs 1.5B (history),all,"+0.144 [+0.112, +0.178]",0.005,A better

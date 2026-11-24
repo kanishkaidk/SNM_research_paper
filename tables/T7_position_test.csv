@@ -1,0 +1,4 @@
+contrast,diff,lo,hi,n
+first - last,-0.022,-0.076,0.031,58
+first - middle,0.011,-0.049,0.072,58
+middle - last,-0.032,-0.098,0.041,58
